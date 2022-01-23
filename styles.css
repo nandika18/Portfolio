@@ -1,0 +1,264 @@
+
+.home-section
+{
+    width: 100%;
+    height: 100vh;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    opacity: 0;
+    transition: 1s;
+}
+.hero-heading
+{
+    color: #fff;
+    font-size: 120px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.back
+{
+      background:#a9cfb8;
+     width: 100%;
+    height:70%
+}     
+.home-img
+{
+  
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 30%;
+    opacity: 0.5;
+}
+.skills
+ {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header
+   {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img 
+  {
+    padding: 1.25rem;
+  }
+  
+  .icon 
+  {
+    width: 11rem;
+    height: 11rem;
+  }
+  .icon:hover 
+  {
+      opacity: 0.5
+    }
+  
+  .icon-card 
+  {
+    background-color: rgb(201, 200, 200);
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+  .gotopbtn
+  {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background: #0d0e0d;
+    bottom: 40px;
+    right: 40px;
+  
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(243, 239, 239);
+    font-size: 50px;
+  }
+  .gotopbtn:hover
+  {
+      opacity: 0.5
+    }
+
+
+  .socials 
+  {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 5%;
+  }
+  .socicon
+   {
+    width: 1rem;
+    height: 1rem;
+  }
+  .new
+   {
+      width: 1000px;
+      height: 500px;
+      padding: 30px;
+      background:linear-gradient(#a9cfb8,#307D7E);
+      box-shadow: 20px 20px rgb(214, 211, 211);
+    }
+    .inner-link 
+    {
+      background:linear-gradient(#a9cfb8,#307D7E);
+      padding: 20px;
+      transition: 0.1s ease-in;
+      border: 2px solid rgb(250, 247, 247);
+  }
+  .inner-link:hover 
+  {
+      border: 2px solid #f3870b;
+      background-color: rgb(255, 228, 228) ;
+  }
+body,html
+{
+	margin:0;
+	padding: 0;
+	font-family: arial;
+}
+.header_bottom
+{
+	background:#307D7E; 
+    padding:30px 20px;
+	top: 0
+}
+.footer
+{
+	background:#ccc;
+	text-align: center;
+	padding: 20px 0; 
+}
+.navbar {
+  overflow: hidden;
+  background-color:#307D7E; 
+  font-family:Georgia
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: rgb(7, 7, 7);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Georgia;
+  margin: 0;
+  font-size: 50px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background:#d9ebe5;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #307D7E; 
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #a9cfb8;
+}
+.show {
+  display: block;}
+  /* Add styles to 'container' class */
+.containers {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	background: #307D7E;
+	border-radius: 4px;
+}
+
+/* Add styles to 'label' selector */
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #307D7E;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid #a9cfb8
+}
+
+/* Add styles to the submit button */
+input[type=submit] {
+	background:#edf3f0;
+	margin: 0 auto;
+	outline: 0;
+	color: black;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Add styles for 'focus' property */
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: #a9cfb8;
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+	background: #a5a9ac;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
+}
